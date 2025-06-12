@@ -2,7 +2,6 @@
     box-sizing : border-box; 
     margin : 0;
     padding: 0;
-    /*outline: 1px solid red;*/
 }
 
 header {
@@ -25,26 +24,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 0 20px;
     /*font-family: 'Lobster', sans-serif;*/
-    font-size: 16px; /*à voir*/
     background-color: #A0A882;
-   /* background-color: #A0A882;
-    background-color: #B9A5CD;
-    background-color: #CDBAA5;
-    */
 }
 
 h1 {
     font-size: 30px;
-    color: white;
-    font-family: 'Lobster', sans-serif;
+    color: #ffffff;
 }
 
 h2 {
     font-size: 20px;
     padding: 20px; 
-    color: white;
+    color: #fff;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -59,14 +52,21 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
     padding: 15px 20px;
-    background-color: #FFFFFF;
-    color: #333333;
+    background-color: #ffffffd3;
+    color: #161616;
+    font-family:'Lobster', sans-serif;
+    letter-spacing: 1px;
     text-decoration: none;
     border-radius: 30px;
     font-weight: bold;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 6px rgba(46, 46, 46, 0.342);
+    transition: all 1s ease-out;
+}
+
+.link:hover {
+    background-color: #e0d4f0;
 }
 
  .link_list li {
@@ -80,8 +80,6 @@ p {
 a {
     text-decoration : none; 
     color: black;
-    top: 50%;
-    left: 50%;
 }
 
 .number {
@@ -98,19 +96,58 @@ a {
     text-align: center;
     padding: 10px;
     margin: 0 10px;
-    background-color: #FFFFFF;
+    background-color: #ffffffe3;
     color: #333333;
     text-decoration: none;
     font-weight: bold;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 6px rgba(46, 46, 46, 0.342);
 }
 
 footer {
-
-    padding: 15px;
+    margin-top: 20px;
+    padding: 20px 0 15px;
     text-align: center; 
+    font-family:'Great Vibes', sans-serif;
 }
 
-@media screen {
+@media screen and (min-width: 768px) {
+    .avatar {
+        width: 180px;
+        height: 180px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+    }
     
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    
+    .link {
+        width: 50%;
+        padding: 20px;
+        font-size: 20px;
+        border-radius: 10px; 
+        background-color: #ffffffd3;
+        color: #161616;
+    }
+    
+    .number_item {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .presentation,
+    .formation {
+        max-width: 800px;
+        margin: 0 auto;
+    }
 }
