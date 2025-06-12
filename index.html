@@ -2,28 +2,58 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="width=device-width, initial-scale=1.0">
-    <title>Linktree Estelle Haubois</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Linktree Estelle Haubois</title>
 </head>
+
 <body>
     <header>
         <img class="avatar" src="images/photo_EstelleHaubois.jpg" alt="Photo d'Estelle Haubois">
-        <h1>Estelle Haubois</h1>
+        <h1 class="name">Estelle Haubois</h1>
         <h2>Concepteur Développeur d'Application en devenir</h2>
     </header>
-    <main> <!-- sous forme de liste ? pas de bouton ? -->  
-       <ul>
-           <li>
-                <a href="https://www.linkedin.com/in/estelle-haubois" target="_blank">LinkedIn</a>
-            </li>
-           <li>
-                <a href="https://github.com/Simina22" target="_blank">GitHub</a>
-            </li>
-           <li>
-                <a href="CV_EstelleHaubois.pdf" target="_blank">Mon CV</a> <!-- le mettre dans un fichier? -->  
-            </li>
-        </ul>
+
+    <main> 
+        <nav class="navigation">
+            <ul class="link_list">    
+                <li>
+                    <a href="https://www.linkedin.com/in/estelle-haubois" class="link" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/EstelleSimina" class="link" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="CV_EstelleHaubois.pdf" class="link" target="_blank">Curriculum Vitae</a> 
+                </li>
+                <li>
+                    <a href="mailto:haubois.estelle@gmail.com" class="link">Me contacter par mail</a>
+                </li>   
+            </ul>
+        </nav>         
+
+        <section class="presentation">
+            <h2 class="presentation_title">Qui suis-je ?</h2>
+            <p class="presentation_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos culpa nemo harum earum! Ab molestias corrupti nisi molestiae quos? Corrupti, ab aliquam repellat vel placeat nesciunt consectetur impedit dolore tempore.</p>
+        </section> 
+
+        <section class="formation">
+            <h2 class="formation_title">La formation CDA en quelques chiffres :</h2>
+            <div class="formation_number">
+                <ul class="number">
+                    <li class="number_item">1015h de formation</li>
+                    <li class="number_item">Une dizaine de briefs réalisés</li>
+                    <li class="number_item">31 semaines de formation</li>
+                </ul>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <p>© 2025 - Estelle Haubois</p>
+    </footer>
+
 </body>
 </html>

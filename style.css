@@ -2,6 +2,23 @@
     box-sizing : border-box; 
     margin : 0;
     padding: 0;
+    /*outline: 1px solid red;*/
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.801);
+    overflow: hidden;
+    object-fit: cover;
 }
 
 body {
@@ -9,39 +26,91 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    /*font-family: 'Lobster', sans-serif;*/
+    font-size: 16px; /*à voir*/
+    background-color: #A0A882;
+   /* background-color: #A0A882;
+    background-color: #B9A5CD;
+    background-color: #CDBAA5;
+    */
 }
 
-header {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.avatar {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%; /* correct ?*/ 
-    overflow: hidden;
-    margin-bottom: 10px;
-    object-fit: cover;
-    border: 1px;
-}
-
-
-h1{
+h1 {
     font-size: 30px;
+    color: white;
+    font-family: 'Lobster', sans-serif;
 }
 
-h2{
+h2 {
     font-size: 20px;
-    padding: 20px ; 
+    padding: 20px; 
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-li {
+p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 15px 20px;
+    background-color: #FFFFFF;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+ .link_list li {
     list-style-type: none;
-    padding : 20px;
+    padding : 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
-    color: black; 
     text-decoration : none; 
+    color: black;
+    top: 50%;
+    left: 50%;
+}
+
+.number {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.number_item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #FFFFFF;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+
+    padding: 15px;
+    text-align: center; 
+}
+
+@media screen {
+    
 }
