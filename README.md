@@ -2,7 +2,7 @@
 
 ## 🌟 À propos du projet
 
-Crée un site personnel HTML/CSS dans le style d’un Linktree pour valoriser mon profil, centraliser mes liens utiles, et faciliter le contact avec les recruteurs. Ce projet a été réalisé dans le cadre de ma formation Concepteur Développeur d’Applications chez Simplon, afin de mettre en pratique les fondamentaux du HTML/CSS. L’interface devait être moderne, responsive et structurée autour de mon univers.
+Création d'un site personnel dans le style d’un Linktree pour valoriser mon profil, centraliser mes liens utiles, et faciliter le contact avec les recruteurs. Ce projet a été réalisé dans le cadre de ma formation Concepteur Développeur d’Applications chez Simplon, afin de mettre en pratique les fondamentaux du HTML/CSS. L’interface devait être moderne, responsive et structurée autour de mon univers.
 
 
 ## 📌 Contexte pédagogique
